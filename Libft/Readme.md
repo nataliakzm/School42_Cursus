@@ -27,16 +27,8 @@ For detailed information, refer to the [**subject of this project**](https://git
 * [`ft_isascii`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isascii.c)			- test for ASCII character.
 * [`ft_isalnum`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isalnum.c)			- alphanumeric character test.
 * [`ft_isalpha`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isalpha.c)			- alphabetic character test.
-* [`ft_islower`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_islower.c) *	- lower-case character test.
-* [`ft_isupper`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isupper.c) *	- upper-case character test.
 * [`ft_isdigit`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isdigit.c)			- decimal-digit character test.
-* [`ft_isxdigit`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isxdigit.c) *	- hexadecimal-digit character test.
 * [`ft_isprint`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isprint.c)			- printing character test (space character inclusive).
-* [`ft_isgraph`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isgraph.c) *	- printing character test (space character exclusive).
-* [`ft_isspace`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isspace.c) *	- white-space character test.
-* [`ft_isblank`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isblank.c) *	- space or tab character test.
-* [`ft_ispunct`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_ispunct.c) *	- punctuation character test.
-* [`ft_iscntrl`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_iscntrl.c) *	- control character test.
 * [`ft_tolower`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_tolower.c)			- upper case to lower case letter conversion.
 * [`ft_toupper`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_toupper.c)			- lower case to upper case letter conversion.
 
@@ -53,44 +45,30 @@ For detailed information, refer to the [**subject of this project**](https://git
 * [`ft_memcmp`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_memcmp.c)		- compare byte string.
 * [`ft_memmove`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_memmove.c)	- copy byte string.
 * [`ft_memcpy`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_memcpy.c)		- copy memory area.
-* [`ft_memccpy`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_memccpy.c)	- copy string until character found.
 
 ### Functions from `<string.h>` library
 
 * [`ft_strlen`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strlen.c)				- find length of string.
 * [`ft_strchr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strchr.c)				- locate character in string (first occurrence).
 * [`ft_strrchr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strrchr.c)			- locate character in string (last occurence).
-* [`ft_strstr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strstr.c) *		- locate a substring in a string.
 * [`ft_strnstr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strnstr.c)			- locate a substring in a string (size-bounded).
-* [`ft_strcmp`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strcmp.c) *		- compare strings.
 * [`ft_strncmp`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strncmp.c) *			- compare strings (size-bounded).
-* [`ft_strnrcmp`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strnrcmp.c)			- reversely compare strings (size-bounded).
-* [`ft_strcpy`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strcpy.c) *		- copy strings.
-* [`ft_strncpy`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strncpy.c) *	- copy strings (size-bounded).
 * [`ft_strdup`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strdup.c)				- save a copy of a string (with malloc).
-* [`ft_strndup`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strndup.c) *	- save a copy of a string (with malloc, size-bounded).
-* [`ft_strcat`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strcat.c) *		- concatenate strings (s2 into s1).
-* [`ft_strncat`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strncat.c) *	- concatenate strings (s2 into s1, size-bounded).
 * [`ft_strlcpy`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strlcpy.c)			- size-bounded string copying.
 * [`ft_strlcat`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strlcat.c)			- size-bounded string concatenation.
 
 ### Non-standard functions
 
 * [`ft_putchar_fd`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putchar_fd.c)		- output a character to given file.
-* [`ft_putstr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putstr.c) *		- output string to stdout.
 * [`ft_putstr_fd`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putstr_fd.c)		- output string to given file.
-* [`ft_putendl`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putendl.c) *	- output string to stdout with newline.
 * [`ft_putendl_fd`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putendl_fd.c)		- output string to given file with newline.
-* [`ft_putnbr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putnbr.c) *		- output integer to stdout.
 * [`ft_putnbr_fd`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_putnbr_fd.c)		- output integer to given file.
 * [`ft_itoa`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_itoa.c)					- convert integer to ASCII string.
 * [`ft_substr`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_substr.c)				- extract substring from string.
 * [`ft_strtrim`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strtrim.c)			- trim beginning and end of string with the specified characters.
 * [`ft_strjoin`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strjoin.c)			- concatenate two strings into a new string (with malloc).
 * [`ft_split`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_split.c)				- split string, with specified character as delimiter, into an array of strings.
-* [`ft_split_free`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_split_free.c) *				- free splitted string.
 * [`ft_strmapi`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_strmapi.c)			- create new string from modifying string with specified function.
-* [`ft_ftoa_rnd`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_ftoa_rnd.c)			- convert float to ASCII string.
 
 ### Linked list functions
 
