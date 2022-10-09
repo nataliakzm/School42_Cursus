@@ -24,7 +24,7 @@ For detailed information, refer to the [**subject of this project**](https://git
 
 ### Functions from `<ctype.h>` library
 
-* [`ft_isascii`](libft/srcs/is/ft_isascii.c)			- test for ASCII character.
+* [`ft_isascii`](libft/ft_isascii.c)			- test for ASCII character.
 * [`ft_isalnum`](libft/srcs/is/ft_isalnum.c)			- alphanumeric character test.
 * [`ft_isalpha`](libft/srcs/is/ft_isalpha.c)			- alphabetic character test.
 * [`ft_islower`](libft/srcs/is/ft_islower.c) *	- lower-case character test.
