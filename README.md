@@ -8,4 +8,4 @@
 
 ## ⚪ Ring 00
 
-1️⃣ **Libft (C)** - <link>
+1️⃣ **Libft (C)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Libft
