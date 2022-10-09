@@ -24,14 +24,14 @@ For detailed information, refer to the [**subject of this project**](https://git
 
 ### Functions from `<ctype.h>` library
 
-* [`ft_isascii`](Libft/ft_isascii.c)			- test for ASCII character.
-* [`ft_isalnum`](libft/srcs/is/ft_isalnum.c)			- alphanumeric character test.
-* [`ft_isalpha`](libft/srcs/is/ft_isalpha.c)			- alphabetic character test.
-* [`ft_islower`](libft/srcs/is/ft_islower.c) *	- lower-case character test.
-* [`ft_isupper`](libft/srcs/is/ft_isupper.c) *	- upper-case character test.
-* [`ft_isdigit`](libft/srcs/is/ft_isdigit.c)			- decimal-digit character test.
-* [`ft_isxdigit`](libft/srcs/is/ft_isxdigit.c) *	- hexadecimal-digit character test.
-* [`ft_isprint`](libft/srcs/is/ft_isprint.c)			- printing character test (space character inclusive).
+* [`ft_isascii`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isascii.c)			- test for ASCII character.
+* [`ft_isalnum`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isalnum.c)			- alphanumeric character test.
+* [`ft_isalpha`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isalpha.c)			- alphabetic character test.
+* [`ft_islower`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_islower.c) *	- lower-case character test.
+* [`ft_isupper`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isupper.c) *	- upper-case character test.
+* [`ft_isdigit`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isdigit.c)			- decimal-digit character test.
+* [`ft_isxdigit`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isxdigit.c) *	- hexadecimal-digit character test.
+* [`ft_isprint`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_isprint.c)			- printing character test (space character inclusive).
 * [`ft_isgraph`](libft/srcs/is/ft_isgraph.c) *	- printing character test (space character exclusive).
 * [`ft_isspace`](libft/srcs/is/ft_isspace.c) *	- white-space character test.
 * [`ft_isblank`](libft/srcs/is/ft_isblank.c) *	- space or tab character test.
