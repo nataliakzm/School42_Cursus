@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script trims beginning and end of string */
-/* with the specified characters */
-/* DETAILS: */
+/*
+** This script trims beginning and end of string
+** with the specified characters
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set){}
+char *ft_strtrim(char const *s1, char const *set) {}

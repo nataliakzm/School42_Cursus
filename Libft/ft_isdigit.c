@@ -10,12 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for testing decimal-digit characters */
-/* LIBRARY: <ctype.h */
+/*
+** LIBRARY: <ctype.h
+** This script is for testing decimal-digit characters
+*/
 
 #include "libft.h"
 
-int	ft_isdigit(int i)
+int ft_isdigit(int i)
 {
 	if (i >= '0' && i <= '9')
 		return (1);

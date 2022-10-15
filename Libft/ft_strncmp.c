@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script compares strings (size-bounded) */
-/* DETAILS: */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script compares strings (size-bounded)
+** DETAILS:
+*/
 
 #include "libft.h"
 
-int	ft_strncmp(const char *s1, char *s2, size_t n){}
+int ft_strncmp(const char *s1, char *s2, size_t n) {}

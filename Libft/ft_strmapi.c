@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script creates new string from modifying string */
-/* with specified function. */
-/* DETAILS: */
+/*
+** This script creates new string from modifying string
+** with specified function.
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char)){}
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) {}

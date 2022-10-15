@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script outputs integer to given file */
-/* DETAILS: */
+/*
+** This script outputs integer to given file
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd){}
+void ft_putnbr_fd(int n, int fd) {}

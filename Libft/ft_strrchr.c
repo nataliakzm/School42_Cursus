@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script locates character in string (last occurrence) */
-/* DETAILS: */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script locates character in string (last occurrence)
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int i){}
+char *ft_strrchr(const char *s, int i) {}

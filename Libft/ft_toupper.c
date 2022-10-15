@@ -10,12 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for lower case to upper case letter conversion */
-/* LIBRARY: <ctype.h> */
+/*
+** LIBRARY: <ctype.h>
+** This script is for lower case to upper case letter conversion
+*/
 
 #include "libft.h"
 
-int	ft_toupper(int i)
+int ft_toupper(int i)
 {
 	if (i >= 'a' && i <= 'z')
 		return (i -= 32);

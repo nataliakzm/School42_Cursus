@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script finds length of string */
-/* DETAILS: */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script finds length of string
+** DETAILS:
+*/
 
 #include "libft.h"
 
-int	ft_strlen(const char *str){}
+int ft_strlen(const char *str) {}

@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script finds last element of list */
-/* DETAILS: */
+/*
+** This script finds last element of list
+** DETAILS:
+*/
 
 #include "libft.h"
 
-t_list	*ft_lstlast(t_list *lst){}
+t_list *ft_lstlast(t_list *lst) {}

@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script applies function to content of all list's elements */
-/* DETAILS: */
+/*
+** This script applies function to content of all list's elements
+** DETAILS:
+*/
 
 #include "libft.h"
 
-oid	ft_lstiter(t_list *lst, void (*f)(void *)){}
+oid ft_lstiter(t_list *lst, void (*f)(void *)) {}

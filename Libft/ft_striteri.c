@@ -10,8 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script applies a function to each character of a string */
-/* DETAILS: */
+/*
+** This script applies a function to each character of a string
+** DETAILS:
+*/
 
 #include "libft.h"
 

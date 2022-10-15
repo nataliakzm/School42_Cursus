@@ -10,11 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script applies function to content of */
-/* all list's elements into new list */
-/* DETAILS: */
+/*
+** This script applies function to content of
+** all list's elements into new list
+** DETAILS:
+*/
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),
-		void (*del)(void *)){}
+t_list *ft_lstmap(t_list *lst, void *(*f)(void *),
+				  void (*del)(void *)) {}

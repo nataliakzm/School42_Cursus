@@ -11,15 +11,15 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: <strings.h>
 ** This script writes zeroes to a byte string
-** LIBRARY: <strings.h> 
 ** DETAILS: bzero() writes n zeroed bytes to the string s.
 **          If n is zero, bzero() does nothing.
 */
 
 #include "libft.h"
 
-void    ft_bzero(void *s, size_t n)
+void ft_bzero(void *s, size_t n)
 {
     ft_memset(s, '\0', n);
 }

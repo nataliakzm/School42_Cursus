@@ -11,18 +11,18 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: <strings.h>
 ** This script writes a byte to a byte string
-** LIBRARY: <strings.h> 
-** DETAILS: memset() writes n bytes of value c 
+** DETAILS: memset() writes n bytes of value c
 ** (converted to an unsigned char) to the string s.
 */
 
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+void *ft_memset(void *b, int c, size_t len)
 {
-	size_t	i;
-	
+	size_t i;
+
 	i = 0;
 	while (i < len)
 	{

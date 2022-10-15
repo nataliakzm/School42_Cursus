@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script locates a substring in a string (size-bounded) */
-/* DETAILS: */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script locates a substring in a string (size-bounded)
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len){}
+char *ft_strnstr(const char *haystack, const char *needle, size_t len) {}

@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for size-bounded string concatenation */
-/* DETAILS:  */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script is for size-bounded string concatenation
+** DETAILS:
+*/
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dest, const char *src, size_t size){}
+size_t ft_strlcat(char *dest, const char *src, size_t size) {}

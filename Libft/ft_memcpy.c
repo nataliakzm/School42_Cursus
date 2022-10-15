@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script copies memory area */
-/* DETAILS: */
-/* LIBRARY: <strings.h> */
+/*
+** LIBRARY: <strings.h>
+** This script copies memory area
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *stc, size_t n){}
+void *ft_memcpy(void *dest, const void *stc, size_t n) {}

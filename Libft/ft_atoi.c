@@ -11,8 +11,8 @@
 /* ************************************************************************** */
 
 /*
-** This script is for ASCII string to integer conversion
 ** LIBRARY: <stdlib.h>
+** This script is for ASCII string to integer conversion
 ** DETAILS: atoi() converts the string pointed by ptr to an int
 */
 

@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script deletes sequence of elements of list */
-/* from a starting point. */
-/* DETAILS: */
+/*
+** This script deletes sequence of elements of list
+** from a starting point.
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	ft_lstclear(t_list **lst, void (*del)(void *)){}
+void ft_lstclear(t_list **lst, void (*del)(void *)) {}

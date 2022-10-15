@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for memory allocation */
-/* DETAILS: */
-/* LIBRARY: <stdlib.h> */
+/*
+** LIBRARY: <stdlib.h>
+** This script is for memory allocation
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void    *ft_calloc(size_t count, size_t	size){}
+void *ft_calloc(size_t count, size_t size) {}

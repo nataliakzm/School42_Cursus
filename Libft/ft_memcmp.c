@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script compares byte strings */
-/* DETAILS: */
-/* LIBRARY: <strings.h> */
+/*
+** LIBRARY: <strings.h>
+** This script compares byte strings
+** DETAILS:
+*/
 
 #include "libft.h"
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n){}
+int ft_memcmp(const void *s1, const void *s2, size_t n) {}

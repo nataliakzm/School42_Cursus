@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script adds new element at beginning of list */
-/* DETAILS: */
+/*
+** This script adds new element at beginning of list
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	ft_lstadd_front(t_list **lst, t_list *new){}
+void ft_lstadd_front(t_list **lst, t_list *new) {}

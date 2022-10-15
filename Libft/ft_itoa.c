@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script converts integer to ASCII string */
-/* DETAILS: */
+/*
+** This script converts integer to ASCII string
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char    *ft_itoa(int i){}
+char *ft_itoa(int i) {}

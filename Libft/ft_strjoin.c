@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script concatenates two strings into a new string (with malloc) */
-/* DETAILS: */
+/*
+** This script concatenates two strings into a new string (with malloc)
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2){}
+char *ft_strjoin(char const *s1, char const *s2) {}

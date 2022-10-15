@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script outputs string to given file with newline */
-/* DETAILS: */
+/*
+** This script outputs string to given file with newline
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	ft_putendl_fd(char *s, int fd){}
+void ft_putendl_fd(char *s, int fd) {}

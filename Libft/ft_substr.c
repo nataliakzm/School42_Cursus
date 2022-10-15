@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script extracts substring from string */
-/* DETAILS: */
+/*
+** This script extracts substring from string
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len){}
+char *ft_substr(char const *s, unsigned int start, size_t len) {}

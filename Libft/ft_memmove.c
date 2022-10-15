@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script copies byte string */
-/* DETAILS: */
-/* LIBRARY: <strings.h> */
+/*
+** LIBRARY: <strings.h>
+** This script copies byte string
+** DETAILS:
+*/
 
 #include "libft.h"
 
-void	*ft_memmove(void *s1, const void *s2, size_t n){}
+void *ft_memmove(void *s1, const void *s2, size_t n) {}

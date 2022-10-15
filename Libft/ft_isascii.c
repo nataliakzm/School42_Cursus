@@ -10,13 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for testing ASCII characters */
-/* DETAILS: isascii() tests for an ASCII character (in the range 0 to 127) */
-/* LIBRARY: <ctype.h> */
+/*
+** LIBRARY: <ctype.h>
+** This script is for testing ASCII characters
+** DETAILS: isascii() tests for an ASCII character (in the range 0 to 127)
+*/
 
 #include "libft.h"
 
-int	ft_isascii(int i)
+int ft_isascii(int i)
 {
 	if (i >= 0 && i <= 127)
 		return (1);

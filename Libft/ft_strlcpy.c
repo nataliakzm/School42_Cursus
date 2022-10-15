@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for size-bounded string copying */
-/* DETAILS:  */
-/* LIBRARY: <string.h> */
+/*
+** LIBRARY: <string.h>
+** This script is for size-bounded string copying
+** DETAILS:
+*/
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dest, const char *src, size_t size){}
+size_t ft_strlcpy(char *dest, const char *src, size_t size) {}

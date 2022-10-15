@@ -10,10 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script splits string, with specified character as delimiter, */
-/* into an array of strings*/
-/* DETAILS: */
+/*
+** This script splits string, with specified character as delimiter,
+** into an array of strings
+** DETAILS:
+*/
 
 #include "libft.h"
 
-char	**ft_split(char const *str, char c){}
+char **ft_split(char const *str, char c) {}

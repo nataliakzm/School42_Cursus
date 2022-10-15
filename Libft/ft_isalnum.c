@@ -10,16 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for testing alphanumeric characters */
-/* DETAILS: --- */
-/* LIBRARY: <ctype.h>*/
+/*
+** LIBRARY: <ctype.h>
+** This script is for testing alphanumeric characters
+*/
 
 #include "libft.h"
 
-int	ft_isalnum(int i)
+int ft_isalnum(int i)
 {
-	if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z')
-		|| (i >= '0' && i <= '9'))
+	if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z') || (i >= '0' && i <= '9'))
 		return (1);
 	return (0);
 }

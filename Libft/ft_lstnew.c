@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script creates new list */
-/* DETAILS: */
+/*
+** This script creates new list
+** DETAILS:
+*/
 
 #include "libft.h"
 
-t_list	*ft_lstnew(void *content){}
+t_list *ft_lstnew(void *content) {}
