@@ -10,16 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script is for ASCII string to integer conversion */
-/* DETAILS: atoi() converts the string pointed by ptr to an int */
-/* LIBRARY: <stdlib.h> */
+/*
+** This script is for ASCII string to integer conversion
+** LIBRARY: <stdlib.h>
+** DETAILS: atoi() converts the string pointed by ptr to an int
+*/
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+int ft_atoi(const char *str)
 {
-	int	res;
-	int	sign;
+	int res;
+	int sign;
 
 	res = 0;
 	sign = 1;

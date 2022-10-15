@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* This script ?????*/
+/* This script applies a function to each character of a string */
 /* DETAILS: */
 
 #include "libft.h"
 
-void	ft_striteri(char *s, void (*f)(unsigned int, char *)){}
+void ft_striteri(char *s, void (*f)(unsigned int, char *)) {}
