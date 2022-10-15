@@ -13,7 +13,9 @@
 /*
 ** LIBRARY: <string.h>
 ** This script locates character in string (last occurrence)
-** DETAILS:
+** DETAILS: strrchr() locates the last occurrence of c (converted to a
+**	char) in the string s.  If c is `\0', strrchr() locates
+**	the terminating `\0'.
 */
 
 #include "libft.h"

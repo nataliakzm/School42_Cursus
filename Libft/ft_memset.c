@@ -14,7 +14,7 @@
 ** LIBRARY: <strings.h>
 ** This script writes a byte to a byte string
 ** DETAILS: memset() writes n bytes of value c
-** (converted to an unsigned char) to the string s.
+** 			(converted to an unsigned char) to the string s.
 */
 
 #include "libft.h"

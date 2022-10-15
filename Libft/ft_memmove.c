@@ -13,7 +13,9 @@
 /*
 ** LIBRARY: <strings.h>
 ** This script copies byte string
-** DETAILS:
+** DETAILS: memmove() copies n bytes from string s2 to string s1.  The
+**	two strings may overlap; the copy is always done in a non-destructive
+**	manner.
 */
 
 #include "libft.h"

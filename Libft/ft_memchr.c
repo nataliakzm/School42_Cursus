@@ -14,7 +14,7 @@
 ** LIBRARY: <strings.h>
 ** This script locates byte in byte string
 ** DETAILS: memchr() locates the first occurrence of c
-** (converted to an unsigned char) in string s.
+**			(converted to an unsigned char) in string s.
 */
 
 #include "libft.h"

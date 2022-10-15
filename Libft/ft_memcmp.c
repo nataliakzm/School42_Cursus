@@ -13,7 +13,8 @@
 /*
 ** LIBRARY: <strings.h>
 ** This script compares byte strings
-** DETAILS:
+** DETAILS: memcmp() compares byte string s1 against byte string s2.
+**	        Both strings are assumed to be n bytes long.
 */
 
 #include "libft.h"

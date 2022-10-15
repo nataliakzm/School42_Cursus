@@ -13,7 +13,10 @@
 /*
 ** LIBRARY: <stdlib.h>
 ** This script is for memory allocation
-** DETAILS:
+** DETAILS: calloc() contiguously allocates enough space for count
+**	objects that are size bytes of memory each and returns a pointer to the
+**	allocated memory. The allocated memory is filled with bytes of value
+**	zero.
 */
 
 #include "libft.h"

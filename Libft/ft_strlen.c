@@ -13,7 +13,7 @@
 /*
 ** LIBRARY: <string.h>
 ** This script finds length of string
-** DETAILS:
+** DETAILS: strlen() computes the length of the string s.
 */
 
 #include "libft.h"
