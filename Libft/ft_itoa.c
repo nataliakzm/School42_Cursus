@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:05:07 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:05:09 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/19 14:27:12 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,7 @@
 
 #include "libft.h"
 
-char *ft_itoa(int i) {}
+char	*ft_itoa(int n)
+{
+	here
+}

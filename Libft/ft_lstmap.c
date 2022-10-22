@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:06:15 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:06:16 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:02:57 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,8 @@
 
 #include "libft.h"
 
-t_list *ft_lstmap(t_list *lst, void *(*f)(void *),
-				  void (*del)(void *)) {}
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),
+		void (*del)(void *))
+{
+	here
+}

@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:07:23 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/13 16:19:41 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 10:56:02 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 #include "libft.h"
 
-void *ft_memmove(void *s1, const void *s2, size_t n)
+void	*ft_memmove(void *s1, const void *s2, size_t n)
 {
 	size_t	len;
 

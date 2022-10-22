@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:06:20 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:06:22 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/19 15:51:09 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,14 @@
 
 #include "libft.h"
 
-t_list *ft_lstnew(void *content) {}
+t_list	*ft_lstnew(void *content)
+{
+	t_list	*new;
+
+	new = malloc(sizeof(t_list) * 1);
+	if (!new)
+		return (new);
+	new -> content = content;
+	new -> next = (t_list *)(void *)0;
+	return (new);
+}

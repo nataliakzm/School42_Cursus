@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:21:33 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:21:34 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:07:59 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,7 @@
 
 #include "libft.h"
 
-char **ft_split(char const *str, char c) {}
+char	**ft_split(char const *str, char c)
+{
+	here
+}

@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:21:44 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:21:49 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:12:02 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 
 #include "libft.h"
 
-char *ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	while (*s != '\0' && c != *s)
 		s++;

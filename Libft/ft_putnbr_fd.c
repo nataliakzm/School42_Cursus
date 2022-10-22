@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:21:15 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:21:17 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 10:56:51 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,7 @@
 
 #include "libft.h"
 
-void ft_putnbr_fd(int n, int fd) {}
+void	ft_putnbr_fd(int n, int fd)
+{
+	here
+}

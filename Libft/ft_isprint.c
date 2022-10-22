@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:05:01 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/13 15:31:20 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:13:48 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 #include "libft.h"
 
-int ft_isprint(int i)
+int	ft_isprint(int i)
 {
 	if (i >= 32 && i <= 126)
 		return (1);

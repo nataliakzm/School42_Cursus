@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:03:54 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/13 15:29:10 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:04:02 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 #include "libft.h"
 
-int ft_isascii(int i)
+int	ft_isascii(int i)
 {
 	if (i >= 0 && i <= 127)
 		return (1);

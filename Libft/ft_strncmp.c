@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:23:08 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:23:09 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/19 15:28:11 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 
 #include "libft.h"
 
-int ft_strncmp(const char *s1, char *s2, size_t n)
+int	ft_strncmp(const char *s1, char *s2, size_t n)
 {
 	while (*s1 != '\0' && *s1 == *s2 && n > 0)
 	{

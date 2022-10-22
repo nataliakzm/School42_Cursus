@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:21:24 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:21:25 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 11:58:47 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,7 @@
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd) {}
+void	ft_putstr_fd(char *s, int fd)
+{
+	here
+}

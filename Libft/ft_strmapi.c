@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:22:46 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:22:47 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 11:59:43 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,7 @@
 
 #include "libft.h"
 
-char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) {}
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+{
+	here
+}

@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:06:30 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:06:31 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:09:05 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,7 @@
 
 #include "libft.h"
 
-int ft_lstsize(t_list *lst) {}
+int	ft_lstsize(t_list *lst)
+{
+	here
+}

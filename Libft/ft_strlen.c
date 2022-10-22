@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:22:41 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/11 17:22:42 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/17 12:01:06 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 #include "libft.h"
 
-int ft_strlen(const char *str)
+int	ft_strlen(const char *str)
 {
 	int	i;
 
