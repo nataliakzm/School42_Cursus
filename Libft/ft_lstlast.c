@@ -11,8 +11,9 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: N/A
 ** This script finds last element of list
-** DETAILS:
+** DETAILS: Returns the last element of the list.
 */
 
 #include "libft.h"

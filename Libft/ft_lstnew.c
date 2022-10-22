@@ -11,8 +11,11 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: N/A
 ** This script creates new list
-** DETAILS:
+** DETAILS: Allocates (with malloc(3)) and returns a new element. 
+** The variable ’content’ is initialized with the value
+** of the parameter ’content’. The variable ’next’ is initialized to NULL.
 */
 
 #include "libft.h"

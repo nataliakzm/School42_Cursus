@@ -11,8 +11,9 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: N/A
 ** This script adds new element at beginning of list
-** DETAILS:
+** DETAILS: Adds the element ’new’ at the beginning of the list.
 */
 
 #include "libft.h"

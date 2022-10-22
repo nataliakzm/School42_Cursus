@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 /*
-** LIBRARY: <ctype.h
+** LIBRARY: <ctype.h>
 ** This script is for printing character test (incl. space)
 */
 

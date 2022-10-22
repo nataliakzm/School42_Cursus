@@ -11,8 +11,10 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: N/A
 ** This script applies function to content of all list's elements
-** DETAILS:
+** DETAILS: Iterates the list ’lst’ and applies the function ’f’
+** to the content of each element.
 */
 
 #include "libft.h"

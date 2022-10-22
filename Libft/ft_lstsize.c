@@ -11,8 +11,9 @@
 /* ************************************************************************** */
 
 /*
+** LIBRARY: N/A
 ** This script counts elements of a list
-** DETAILS:
+** DETAILS: Counts the number of elements in a list.
 */
 
 #include "libft.h"
