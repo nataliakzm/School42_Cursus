@@ -10,13 +10,10 @@ SRCS	=	ft_isalpha.c	ft_isdigit.c	ft_isalnum.c\
 		ft_calloc.c	ft_strdup.c	ft_substr.c\
 		ft_strjoin.c	ft_strtrim.c	ft_putchar_fd.c	\
 		ft_strmapi.c	ft_putstr_fd.c	ft_striteri.c\
-#		ft_itoa.c	ft_split.c\
-		ft_putnbr_fd.c	ft_putendl_fd.c\
+		ft_itoa.c	ft_putnbr_fd.c	ft_putendl_fd.c\
+		ft_split.c\
 
-SRCS_B	=	ft_lstnew.c \
-#		ft_lstadd_front.c	ft_lstsize.c\
-#		ft_lstlast.c	ft_lstadd_back.c	ft_lstdelone.c\
-		ft_lstclear.c	ft_lstiter.c	ft_lstmap.c\
+SRCS_B	=	ft_lstnew.c	ft_lstsize.c\
 
 OBJS	=	$(SRCS:.c=.o)
 OBJS_B	=	$(SRCS_B:.c=.o)

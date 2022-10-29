@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:21:33 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/25 14:32:09 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/29 14:24:59 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,84 +21,90 @@
 
 #include "libft.h"
 
-int	ft_wcount(const char *str, char c)
+static int	ft_wcount(char const *str, char c)
 {
 	int	i;
-	int	sum_words;
+	int	count;
 
-	i = 0;
-	sum_words = 0;
+	if (str == 0 || str[0] == 0)
+		return (0);
+	i = 1;
+	count = 0;
+	if (str[0] != c)
+		count++;
 	while (str[i])
 	{
-		if (str[i] == c)
-			i++;
-		else
-		{
-			sum_words++;
-			while (str[i] && str[i] != c)
-				i++;
-		}
+		if (str[i] != c && str[i - 1] == c)
+			count++;
+		i++;
 	}
-	return (sum_words);
+	return (count);
 }
 
-char	*ft_word(const char *str, char c)
+static char	**ft_malloc(char const *str, char c)
 {
-	char	*wd;
-	int		i;
+	int		len;
+	char	**ptr_words;
 
-	i = 0;
-	while (*str && *str == c)
-		str++;
-	while (str[i] && str[i] != c)
-		i++;
-	wd = malloc(sizeof(char) * (i + 1));
-	if (wd == 0)
+	len = ft_wcount(str, c);
+	ptr_words = malloc(sizeof(*ptr_words) * (len + 1));
+	if (ptr_words == 0)
 		return (0);
-	i = 0;
-	while (str[i] && str[i] != c)
-	{
-		wd[i] = str[i];
-		i++;
-	}
-	wd[i] = '\0';
-	return (wd);
+	return (ptr_words);
 }
 
-void	free_words(int i, char **ptr)
+static int	ft_nxtword(char const *str, char c, int i)
 {
-	while (i > 0)
+	int	count;
+
+	count = 0;
+	while (str[i] && str[i] == c)
+		i++;
+	while (str[i] && str[i] != c)
 	{
-		free(ptr[i - 1]);
-		i--;
+		count++;
+		i++;
 	}
-	free(ptr);
+	return (count);
+}
+
+static char	**free_words(char **ptr_words, int i)
+{
+	int	j;
+
+	j = 0;
+	while (j < i && ptr_words[j] != 0)
+	{
+		free(ptr_words[j]);
+		j++;
+	}
+	free(ptr_words);
+	return (0);
 }
 
 char	**ft_split(char const *s, char c)
 {
-	char	**ptr_words;
-	int		words;
+	int		k;
 	int		i;
+	int		j;
+	char	**ptr_words;
 
-	ptr_words = 0;
-	if (!s)
+	k = 0;
+	i = -1;
+	ptr_words = ft_malloc(s, c);
+	if (!ptr_words)
 		return (0);
-	words = ft_wcount(s, c);
-	ptr_words = malloc(sizeof(char *) * (words + 1));
-	if (ptr_words)
-		return (0);
-	i = 0;
-	while (i < words)
+	while (++i < ft_wcount(s, c))
 	{
-		while (*s && *s == c)
-			s++;
-		ptr_words[i] = ft_word(s, c);
-		if (ptr_words[i] == 0)
-			free_words(i, ptr_words);
-		while (*s && *s != c)
-			s++;
-		i++;
+		j = 0;
+		ptr_words[i] = malloc (ft_nxtword(s, c, k) + 1);
+		if (!ptr_words[i])
+			return (free_words(ptr_words, i));
+		while (s[k] && s[k] == c)
+			k++;
+		while (s[k] && s[k] != c)
+			ptr_words[i][j++] = s[k++];
+		ptr_words[i][j] = '\0';
 	}
 	ptr_words[i] = 0;
 	return (ptr_words);
