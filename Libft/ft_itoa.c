@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 17:05:07 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/10/27 15:38:59 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/10/29 12:05:45 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,54 +32,32 @@ static int	ft_num_size(int numb)
 		length++;
 		numb /= 10;
 	}
-	return (length + 1);
-}
-
-static char	*ft_reverse(char *str)
-{
-	char	swap;
-	int		i;
-	int		j;
-
-	i = 0;
-	j = (int)ft_strlen(str) - 1;
-	while (i < ((int)(ft_strlen(str)) / 2))
-	{
-		swap = str[i];
-		str[i] = str[j];
-		str[j] = swap;
-		i++;
-		j--;
-	}
-	return (str);
+	return (length);
 }
 
 char	*ft_itoa(int n)
 {
-	char	*str;
-	int		i;
-	int		j;
-	int		neg;
+	long int	u;
+	int			i;
+	char		*str;
 
-	i = 0;
-	neg = 0;
-	str = malloc(sizeof(char) * ft_num_size(n));
-	if (n < 0)
-		neg = 1;
-	if (str == 0)
+	u = (long int)n;
+	i = ft_num_size(u);
+	str = malloc(sizeof(char) * i + 1);
+	if (!str)
 		return (0);
-	if (n == 0)
-		str[i++] = '0';
-	while (n)
+	str[i--] = '\0';
+	if (u == 0)
+		str[0] = '0';
+	if (u < 0)
 	{
-		j = n % 10;
-		if (j < 0)
-			j *= -1;
-		str[i++] = j + 48;
-		n /= 10;
+		str[0] = '-';
+		u = u * -1;
 	}
-	if (neg)
-		str[i++] = '-';
-	str[i] = '\0';
-	return (ft_reverse(str));
+	while (u)
+	{
+		str[i--] = (u % 10) + 48;
+		u = u / 10;
+	}
+	return (str);
 }
