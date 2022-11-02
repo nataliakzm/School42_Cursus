@@ -20,7 +20,7 @@ Ft_printf
 
 > _The aim of this project is to recode printf. It's also a possibility to learn how to use variadic arguments._
 
-For detailed information, refer to the [**subject of this project**](https://github.com/appinha/42cursus/tree/master/_PDFs).
+For detailed information, refer to the [**subject of this project**](https://github.com/nataliakzm/School42_Cursus/blob/main/Ft_Printf/en.subject.pdf).
 
 	🚀 TLDR: this project consists of coding a library that contains a simplified version (more
 	information below) of the printf function.
