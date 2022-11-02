@@ -1,37 +1,24 @@
 <h1 align="center">
-	42cursus' ft_printf
+
+Ft_printf
+
+![Build Status](https://camo.githubusercontent.com/76cd252b21c19b4cf767c62782fdcdf046afb7c14435a5604e364e9dace48fe4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d432d4138423943433f7374796c653d666f722d7468652d6261646765266c6f676f3d43)
+
+</div>
 </h1>
 
-<p align="center">
-	<b><i>Development repo for 42cursus' ft_printf project</i></b><br>
-	For further information about 42cursus and its projects, please refer to <a href="https://github.com/appinha/42cursus"><b>42cursus repo</b></a>.
-</p>
-
-<p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/appinha/42cursus-01-ft_printf?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/appinha/42cursus-01-ft_printf?color=blueviolet" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/appinha/42cursus-01-ft_printf?color=blue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/appinha/42cursus-01-ft_printf?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/appinha/42cursus-01-ft_printf?color=brightgreen" />
-</p>
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
-	<a href="#-index">Index</a>
-	<span> · </span>
 	<a href="#%EF%B8%8F-usage">Usage</a>
-	<span> · </span>
-	<a href="#-testing">Testing</a>
-	<span> · </span>
-	<a href="#-useful-links">Useful Links</a>
 </h3>
 
 ---
 
 ## 🗣️ About
 
-> _This project is pretty straight forward. You will recode printf. Hopefully you will be able to reuse it in future project without the fear of being flagged as a cheater. You will mainly learn how to use variadic arguments._
+> _The aim of this project is to recode printf. It's also a possibility to learn how to use variadic arguments._
 
 For detailed information, refer to the [**subject of this project**](https://github.com/appinha/42cursus/tree/master/_PDFs).
 
@@ -47,17 +34,6 @@ For detailed information, refer to the [**subject of this project**](https://git
 
 * **format specifiers** - `nfge` (one or more)
 * **flags** - `l ll h hh` (one or more) and `# +` (all)
-
-## 📑 Index
-
-`@root`
-
-* [**📁 ft_printf:**](ft_printf/) source code developed for the project.
-* [**📁 testing:**](testing/) my own testing program.
-
-`@/ft_printf/`
-
-_Note: files contain both mandatory and all bonus requirements._
 
 **Functions in `ft_printf.c`**
 
@@ -158,40 +134,3 @@ and, when compiling your code, add the required flags:
 ```shell
 -lftprintf -L path/to/libftprintf.a -I path/to/ft_printf.h
 ```
-
-## 📋 Testing
-
-**1. Configuring**
-
-First, open the [`Makefile`](testing/Makefile) inside `/testing/` and configure the path to the `ft_printf` folder:
-
-```Makefile
-PROJECT_DIR	= ../ft_printf/
-```
-
-Then, configure the tests to your needs in the [`/testing/main.c`](testing/main.c) file.
-
-**2. Running:**
-
-```shell
-make
-```
-
-### Third-party testers
-
-* [gavinfielder/pft](https://github.com/gavinfielder/pft)
-* [Mazoise/42TESTERS-PRINTF](https://github.com/Mazoise/42TESTERS-PRINTF)
-* [HappyTramp/ft_printf_test](https://github.com/HappyTramp/ft_printf_test)
-* [t0mm4rx/ftprintfdestructor](https://github.com/t0mm4rx/ftprintfdestructor)
-* [charMstr/printf_lover_v2](https://github.com/charMstr/printf_lover_v2)
-
-## 📌 Useful Links
-
-* [C++ Reference - printf](http://www.cplusplus.com/reference/cstdio/printf/)
-* [Article: Secrets of “printf” (PDF)](https://www.cypress.com/file/54441/download)
-* [MacOS documentation - printf](https://opensource.apple.com/source/xnu/xnu-201/osfmk/kern/printf.c.auto.html)
-* [IEEE-754 Floating Point Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
-* [How does one print floats for ft_printf? - Stack Overflow - 42 Network](https://stackoverflow.com/c/42network/questions/133/134#134)
-* [Printing Floating-Point Numbers](http://www.ryanjuckett.com/programming/printing-floating-point-numbers/)
-* [Printing Floating-Point Numbers Quickly and Accurately with Integers](https://www.cs.tufts.edu/~nr/cs257/archive/florian-loitsch/printf.pdf)
-* [What precisely does the %g printf specifier mean? - Stack Overflow](https://stackoverflow.com/questions/54162152/what-precisely-does-the-g-printf-specifier-mean)
