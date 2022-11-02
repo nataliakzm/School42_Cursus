@@ -12,8 +12,8 @@
 
 ## 🟠 Ring 01
 
-2️⃣ **Ft_Printf (C)** - https://github.com/pasqualerossi/Printf
+2️⃣ **Ft_Printf (C)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Ft_Printf
 
 <br>
 
-3️⃣ **Get_Next_Line (C)** - https://github.com/pasqualerossi/Get_Next_Line 
+3️⃣ **Get_Next_Line (C)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Get_Next_Line
