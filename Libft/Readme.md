@@ -76,13 +76,13 @@ For detailed information, refer to the [**subject of this project**](https://git
 
 - [`ft_lstnew`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstnew.c) - create new list.
 - [`ft_lstsize`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstsize.c) - count elements of a list.
-- [`ft_lstlast`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstlast.c) - find last element of list.
-- [`ft_lstadd_back`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstadd_back.c) - add new element at end of list.
-- [`ft_lstadd_front`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstadd_front.c) - add new element at beginning of list.
-- [`ft_lstdelone`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstdelone.c) - delete element from list.
-- [`ft_lstclear`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstclear.c) - delete sequence of elements of list from a starting point.
-- [`ft_lstiter`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstiter.c) - apply function to content of all list's elements.
-- [`ft_lstmap`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstmap.c) - apply function to content of all list's elements into new list.
+- [`ft_lstlast`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstlast.c) - find last element of list; TBA.
+- [`ft_lstadd_back`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstadd_back.c) - add new element at end of list; TBA.
+- [`ft_lstadd_front`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstadd_front.c) - add new element at beginning of list; TBA.
+- [`ft_lstdelone`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstdelone.c) - delete element from list; TBA.
+- [`ft_lstclear`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstclear.c) - delete sequence of elements of list from a starting point; TBA.
+- [`ft_lstiter`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstiter.c) - apply function to content of all list's elements; TBA.
+- [`ft_lstmap`](https://github.com/nataliakzm/School42_Cursus/blob/main/Libft/ft_lstmap.c) - apply function to content of all list's elements into new list; TBA.
 
 _Note: functions marked with \* are bonus functions (not mandatory by the project's subject)._
 
