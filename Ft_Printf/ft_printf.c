@@ -1,0 +1,16 @@
+#include "libft.h"
+
+int	ft_printf(const char *string, ...)
+{
+	va_list	args;
+	char	*name;
+	unsigned int	days;
+
+	va_start (args, string);
+	name = va_arg(args, char *);
+	days = va_arg(args, int);
+	ft_printf(name);
+	ft_printf(days);
+	va_end(args);
+	return (0);		
+}
