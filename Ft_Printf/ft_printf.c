@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int	ft_printf(const char *string, ...)
+int	ft_printf(const char *str, ...)
 {
 	va_list	args;
 	char	*name;
