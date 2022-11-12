@@ -1,50 +1,56 @@
-#include "ft_printf.h"
+#include "libft.h"
+#include <stdio.h>
 
-static void	ft_printf_check(char s, va_list *args, int *len, int *i)
+t_print	*ft_init_tab(t_print *table)
 {
-	if (s == 's')
-		ft_str(va_arg(*args, char *), len);
-	else if (s == 'd' || s == 'i')
-		ft_num(va_arg(*args, int), len);
-	else if (s == 'u')
-		ft_unsign_int(va_arg(*args, unsigned int), len);
-	else if (s == 'x')
-		ft_hexadec(va_arg(*args, unsigned int), len, 'x');
-	else if (s == 'X')
-		ft_hexadec(va_arg(*args, unsigned int), len, 'X');
-	else if (s == 'p')
-		ft_ptr(va_arg(*args, size_t), len);
-	else if (s == 'c')
-		ft_putchar_len(va_arg(*args, int), len);
-	else if (s == '%')
-		ft_putchar_len('%', len);
-	else
-		(*i)--;
+	table -> len = 0;
+	table -> width = 0;
+	table -> dwidth = 0;
+	table -> precision = 0;
+	table -> zero = 0;
+	table -> point = 0;
+	table -> sign = 0;
+	table -> total_len = 0;
+	table -> is_zero = 0;
+	table -> dash = 0;
+	table -> percentage = 0;
+	table -> space = 0;
+	return (table);
 }
 
-int	ft_printf(const char *str, ...)
+int	ft_printf(const char *string, ...)
 {
-	va_list	args;
-	int		i;
-	int		len;
+	t_print	*table;
+	//va_list	args;
+	//char	*name;
+	//unsigned int	days;
+	unsigned int	retval;
 
-	i = 0;
-	len = 0;
-	va_start(args, str);
-	while (str[i])
+	table = (t_print *)malloc(sizeof(t_print));
+	if (!tab || !string)
+		return (-1);
+	ft_init_tab(table);
+	va_start(table->args, string);
+	retval = 0;
+	while (*string)
 	{
-		if (str[i] == '%')
-		{
-			i++;
-			ft_printf_check(str[i], &args, &len, &i);
-			i++;
-		}
+		if (*string != '%')
+			retval += write(1, string, 1);
 		else
 		{
-			ft_putchar_len((char)str[i], &len);
-			i++;
+			string = ft_check_str(table, string + 1);
+			retval += table ->tl;
+			ft_init_tab(table);
 		}
+		string++;
 	}
-	va_end(args);
-	return (len);
+	//name = va_arg(args, char *);
+	//days = va_arg(args, int);
+	//ft_printf(name);
+	//ft_printf(days);
+	va_end(table->args);
+	free(table)
+	return (retval);	
 }
+
+
