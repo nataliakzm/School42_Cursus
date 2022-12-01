@@ -1,29 +1,59 @@
 NAME = libftprintf.a
 
-SRCS = ft_printf.c\
-       ft_numbers.c\
-       ft_words.c\
+SRCS			=	ft_putnbr_nodash.c \
+					ft_char_in_array.c \
+					ft_convert_csp.c \
+					ft_convert_diuxX.c \
+					ft_check_str.c \
+					ft_print_hex.c \
+					ft_morelen.c \
+					ft_padding.c \
+					ft_update_table.c \
+					ft_printf.c
 
-OBJS = $(SRCS:.c = .o)
+DIR_OBJS	= objs/
 
-CC = gcc
+LIBFT_PATH	= ./libft
+LIBFT		= ${LIBFT_PATH}/libft.a
 
-RM = rm -f
+OBJS		= ${SRCS:.c=.o}
+PRE_OBJS	= $(addprefix ${DIR_OBJS}, ${OBJS})
 
-CFLAGS = -Wall -Wextra -Werror
+GCC			= gcc
 
-all: $(NAME)
+CFLAGS		= -Wall -Wextra -Werror
 
-$(NAME):	$(OBJS)
-	ar rcs $(NAME) $(OBJS)
+AR			= ar
+
+${DIR_OBJS}%.o:	%.c ft_printf.h
+			@mkdir -p ${DIR_OBJS}
+			@${GCC} ${CFLAGS} -c $< -o $@
+
+${NAME}:	${LIBFT} ${PRE_OBJS} 
+			@cp ${LIBFT} ${NAME}
+			@${AR} -crs ${NAME} ${PRE_OBJS}
+			@echo -ne '\nlibftprintf.a CREATED\r'
+			@echo -ne '\n'
+
+${LIBFT}:
+			@make -s -C ${LIBFT_PATH} all
+
+all:		${NAME}
+
+bonus:		all 
+			@echo -ne 'Bonus CREATED\r'
+			@echo -ne '\n'
 
 clean:
-	$(RM) $(OBJS)
+			@make -s -C ${LIBFT_PATH} clean
+			@rm -rf ${DIR_OBJS}
+			@echo -ne 'REMOVED OBJS\n'
 
-fclean: clean
-	$(RM) $(NAME)
+fclean:		clean
+			@make -s -C ${LIBFT_PATH} fclean
+			@rm -f ${NAME}
+			@echo -ne 'REMOVED libftprintf.a\n'
 
-re: fclean all
+re:			fclean all
 
-.PHONY: all clean fclean re
-
+.PHONY:		all clean fclean re bonus

@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+#ifndef LIBFTPRINTF_H
+# define LIBFTPRINTF_H
 
 // Standard C Libraries
 
@@ -26,11 +26,11 @@ typedef struct s_print
 {
 	va_list	args;
 	int		len;
-	int		wdh;
+	int		width;
 	int		dwidth;
-	int		prc;
+	int		precision;
 	int		zero;
-	int		pnt;
+	int		point;
 	int		sign;
 	int		total_len;
 	int		is_zero;
@@ -64,15 +64,5 @@ size_t	ft_putnbr_nodash(int n);
 size_t	ft_ptr_len(unsigned long int n);
 size_t	ft_unint_len(unsigned int n);
 size_t	ft_hex_len(unsigned int n);
-
-// Padding
-void	ft_right_cs(t_print *table, int mode);
-void	ft_left_cs(t_print *table, int mode);
-
-// Update Table
-void	ft_update_r(t_print *table, char type, int negative);
-void	ft_update_r2(t_print *table, int negative, int tmp);
-void	ft_update_r3(t_print *table, int negative);
-void	ft_update_l(t_print *table);
 
 #endif
