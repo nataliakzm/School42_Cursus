@@ -39,7 +39,7 @@ t_list	*ft_lst_get_last(t_list *stash)
 	current = stash;
 	while (current && current->next)
 		current = current->next;
-	return (current)
+	return (current);
 }
 
 /* Calculates the number of chars in the current line,
@@ -58,7 +58,7 @@ void	generate_line(char **line, t_list *stash)
 		{
 			if (stash->content[i] == '\n')
 			{
-				len+;
+				len++;
 				break ;
 			}
 			len++;

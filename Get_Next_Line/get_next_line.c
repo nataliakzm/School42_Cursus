@@ -22,7 +22,7 @@ char	*get_next_line(int fd)
 	line = NULL;
 	// 1. read fd and add to linked list
 	read_and_stash(fd, &stash);
-	if (stash = NULL)
+	if (stash == NULL)
 		return (NULL);
 	// 2. extract from stash to line
 	extract_line(stash, &line);
@@ -45,19 +45,19 @@ void	read_and_stash(int fd, t_list **stash)
 	int		readed;
 	
 	readed = 1;
-	while (!found_newline(*stash) && *readed != 0)
+	while (!found_newline(*stash) && readed != 0)
 	{
 		buf = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 		if (buf == NULL)
 			return ;
-		*readed = (int)read(fd, buf, BUFFER_SIZE);
-		if ((*stash = NULL && *readed == 0) || *readed == -1)
+		readed = (int)read(fd, buf, BUFFER_SIZE);
+		if ((*stash = NULL && readed == 0) || *readed == -1)
 		{
 			free(buf);
 			return ;
 		}
-		buf[*readed] = '\0';
-		add_to_stash(stash, bug, readed);
+		buf[readed] = '\0';
+		add_to_stash(stash, buf, readed);
 		free(buf);
 	}
 }
@@ -88,7 +88,7 @@ void	add_to_stash(t_list **stash, char *buf, int readed)
 		*stash = new_node;
 		return ;
 	}
-	last = ft_lst_get_last(stash: *stash);
+	last = ft_lst_get_last(*stash);
 	last->next = new_node;
 }
 
@@ -111,7 +111,7 @@ void	extract_line(t_list *stash, char **line)
 		i = 0;
 		while (stash->content[i])
 		{
-			if (stash->content[i] == '\n');
+			if (stash->content[i] == '\n')
 			{
 				(*line)[j++] = stash->content[i];
 				break ;
