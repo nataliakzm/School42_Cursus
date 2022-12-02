@@ -51,7 +51,7 @@ void	read_and_stash(int fd, t_list **stash)
 		if (buf == NULL)
 			return ;
 		readed = (int)read(fd, buf, BUFFER_SIZE);
-		if ((*stash = NULL && readed == 0) || *readed == -1)
+		if ((*stash == NULL && readed == 0) || readed == -1)
 		{
 			free(buf);
 			return ;
