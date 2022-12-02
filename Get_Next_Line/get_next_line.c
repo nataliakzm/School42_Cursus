@@ -16,7 +16,7 @@ char	*get_next_line(int fd)
 {
 	static t_list	*stash = NULL;
 	char		*line;
-	
+
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, &line, 0) < 0)
 		return (NULL);
 	line = NULL;
@@ -43,7 +43,7 @@ void	read_and_stash(int fd, t_list **stash)
 {
 	char	*buf;
 	int		readed;
-	
+
 	readed = 1;
 	while (!found_newline(*stash) && readed != 0)
 	{
