@@ -6,7 +6,7 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 12:20:12 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/12/01 12:55:51 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/12/15 11:59:05 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,18 +15,15 @@
 char	*get_next_line(int fd)
 {
 	static t_list	*stash = NULL;
-	char		*line;
+	char			*line;
 
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, &line, 0) < 0)
 		return (NULL);
 	line = NULL;
-	// 1. read fd and add to linked list
 	read_and_stash(fd, &stash);
 	if (stash == NULL)
 		return (NULL);
-	// 2. extract from stash to line
 	extract_line(stash, &line);
-	// 3. clean up stash
 	clean_stash(&stash);
 	if (line[0] == '\0')
 	{
@@ -38,7 +35,6 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-/* Uses read() to add characters to the stash */
 void	read_and_stash(int fd, t_list **stash)
 {
 	char	*buf;
@@ -62,12 +58,11 @@ void	read_and_stash(int fd, t_list **stash)
 	}
 }
 
-/* Adds the content of our buffer to the end of our stash */
 void	add_to_stash(t_list **stash, char *buf, int readed)
 {
-	int	i;
 	t_list	*last;
 	t_list	*new_node;
+	int		i;
 
 	new_node = malloc(sizeof(t_list));
 	if (new_node == NULL)
@@ -91,9 +86,6 @@ void	add_to_stash(t_list **stash, char *buf, int readed)
 	last = ft_lst_get_last(*stash);
 	last->next = new_node;
 }
-
-/* Extracts all characters from our stash and storres them in out line.
- * stopping after the first \n in encounters */
 
 void	extract_line(t_list *stash, char **line)
 {
@@ -123,16 +115,12 @@ void	extract_line(t_list *stash, char **line)
 	(*line)[j] = '\0';
 }
 
-/* After extracting the line that was read, we don't need those characters anumore.
- * This function clears the stash so only the characters that haven't been returned at
- * the end of get_next_line() remain in our static stash */
-
 void	clean_stash(t_list **stash)
 {
 	t_list	*last;
 	t_list	*clean_node;
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 
 	clean_node = malloc(sizeof(t_list));
 	if (stash == NULL || clean_node == NULL)
@@ -144,7 +132,8 @@ void	clean_stash(t_list **stash)
 		i++;
 	if (last->content && last->content[i] == '\n')
 		i++;
-	clean_node->content = malloc(sizeof(char) * ((ft_strlen(last->content) - i) + 1));
+	clean_node->content = malloc(sizeof(char)
+			* ((ft_strlen(last->content) - i) + 1));
 	if (clean_node->content == NULL)
 		return ;
 	j = 0;

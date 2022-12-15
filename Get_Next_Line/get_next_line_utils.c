@@ -6,17 +6,16 @@
 /*   By: nkuzminy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 12:20:25 by nkuzminy          #+#    #+#             */
-/*   Updated: 2022/12/01 12:20:26 by nkuzminy         ###   ########.fr       */
+/*   Updated: 2022/12/15 11:59:36 by nkuzminy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-/* Looks for a newline character in the given linked list. */
 int	found_newline(t_list *stash)
 {
-	int	i;
 	t_list	*current;
+	int		i;
 
 	if (stash == NULL)
 		return (0);
@@ -31,7 +30,6 @@ int	found_newline(t_list *stash)
 	return (0);
 }
 
-/* Return a pointer to the last node in our stash */
 t_list	*ft_lst_get_last(t_list *stash)
 {
 	t_list	*current;
@@ -42,9 +40,6 @@ t_list	*ft_lst_get_last(t_list *stash)
 	return (current);
 }
 
-/* Calculates the number of chars in the current line,
- * including the trailing \n if there's one, and
- * allocates memory accordingly. */
 void	generate_line(char **line, t_list *stash)
 {
 	int	i;
@@ -69,7 +64,6 @@ void	generate_line(char **line, t_list *stash)
 	*line = malloc(sizeof(char) * (len + 1));
 }
 
-/* Frees the entire stash. */
 void	free_stash(t_list *stash)
 {
 	t_list	*current;
