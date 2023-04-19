@@ -14,7 +14,7 @@
 
 <br>
 
-## 🟠 Ring 01
+## 🟠 Common Core Rank 01
 
 </div>
 
