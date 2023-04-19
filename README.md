@@ -26,7 +26,7 @@
 
 <br>
 
-3️⃣ *Born2BeRoot (Virtual Machine using Debian - Solo Project)** - TBD, passed
+3️⃣ **Born2BeRoot (Virtual Machine using Debian - Solo Project)** - TBD, passed
 
 <br>
 
