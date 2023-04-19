@@ -45,7 +45,6 @@
 3️⃣ **Push_Swap (C - Solo Project)** - Not yet activated
 
 <br>
-<br>
 
 ## Overview
 
