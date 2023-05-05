@@ -24,11 +24,7 @@
 
 1️⃣ **Ft_Printf (C - Solo Project)** - [Click here to see more](https://github.com/nataliakzm/School42_Cursus/tree/main/Ft_Printf)
 
-<br>
-
 2️⃣ **Get_Next_Line (C - Solo Project)** - [Click here to see more](https://github.com/nataliakzm/School42_Cursus/tree/main/Get_Next_Line)
-
-<br>
 
 3️⃣ **Born2BeRoot (Virtual Machine using Debian - Solo Project)** - TBD, passed
 
@@ -38,13 +34,9 @@
 
 </div>
 
-1️⃣ **MiniTalk** **(C - Solo Project)** - TBD, passed
-
-<br>
+1️⃣ **MiniTalk** **(C - Solo Project)** - [Click here to see more]()
 
 2️⃣ **So_Long** **(C - Solo Project)** - Current
-
-<br>
 
 3️⃣ **Push_Swap (C - Solo Project)** - Not yet activated
 
