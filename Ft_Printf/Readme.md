@@ -1,12 +1,14 @@
-<h1 align="center">
+<div align="center">
 
-Ft_printf
+# Ft_printf Project <img align="right" src="https://user-images.githubusercontent.com/102881479/215298013-ff93daf3-6f0c-4226-9474-65b280e579fe.png" /> 
 
-![Build Status](https://camo.githubusercontent.com/76cd252b21c19b4cf767c62782fdcdf046afb7c14435a5604e364e9dace48fe4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d432d4138423943433f7374796c653d666f722d7468652d6261646765266c6f676f3d43)
+<p align="center">
+    <img src="https://img.shields.io/badge/OS-Linux-blue" alt="OS">
+    <img src="https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B-blue.svg" alt="Language">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen.svg" alt="Status">
+</p>
 
 </div>
-</h1>
-
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
