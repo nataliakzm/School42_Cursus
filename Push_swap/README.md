@@ -21,6 +21,8 @@
 
 ## 🗣️ About
 
+For detailed information, refer to the [**subject of this project**](https://github.com/nataliakzm/School42_Cursus/blob/main/Push_swap/en.subject.pdf).
+
 This project is about sorting data on a stack with a limited set of instructions, using the lowest possible number of actions. It aims to teach students about how to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
 
 There are two stacks `a` and `b`. At the beginning, stack `a` contains the numbers to be sorted and stack `b` is empty. Only eleven stack operations are allowed. All of them are listed below:
