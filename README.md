@@ -38,7 +38,7 @@
 
 2️⃣ **So_Long** **(C - Solo Project)** - Current
 
-3️⃣ **Push_Swap (C - Solo Project)** - Not yet activated
+3️⃣ **Push_Swap (C - Solo Project)** - [Not yet activated](https://github.com/nataliakzm/School42_Cursus/tree/main/Push_swap)
 
 <br>
 
