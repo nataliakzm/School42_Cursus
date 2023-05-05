@@ -5,7 +5,7 @@
 # 42 Cursus
   
 <p align="center">
-	<b><i>Projects developed at <a href="https://www.42sp.org.br/">42 São Paulo</a> programming school.</i></b><br>
+	<b><i>Projects developed at <a href="https://42firenze.it/">42 Florence</a> programming school.</i></b><br>
 </p>
 
 </div>
