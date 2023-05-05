@@ -1,11 +1,14 @@
-<h1 align="center">
+<div align="center">
 
-Get_next_line
-	
-![Build Status](https://camo.githubusercontent.com/76cd252b21c19b4cf767c62782fdcdf046afb7c14435a5604e364e9dace48fe4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d432d4138423943433f7374796c653d666f722d7468652d6261646765266c6f676f3d43)
+# Get_next_line Project <img align="right" src="https://user-images.githubusercontent.com/102881479/215228915-72cdc235-c3b5-4793-be79-e5e2f36d8336.png" /> 
+
+<p align="center">
+    <img src="https://img.shields.io/badge/OS-Linux-blue" alt="OS">
+    <img src="https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B-blue.svg" alt="Language">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen.svg" alt="Status">
+</p>
 
 </div>
-</h1>
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
@@ -18,11 +21,13 @@ Get_next_line
 
 ## 🗣️ About
 
-> _The aim of this project is to make you code a function that returns a line ending with a newline, read from a file descriptor._
+> _The aim of this project is to make students learn about **static variables**_
 
 For detailed information, refer to the [**subject of this project**](https://github.com/nataliakzm/School42_Cursus/blob/main/Get_Next_Line/en.subject%20(1).pdf).
 
-	🚀 TLDR: this project consists of coding a function that returns one line at a time from a text file.
+	🚀 TLDR: Because reading a line from a fd is way too tedious, this project is about creating your own function that 
+	returns a line read from one file descriptor. The function get_next_line() returns NULL, if there is nothing else 
+	to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
 
 ### Functions in `get_next_line.c`
 
