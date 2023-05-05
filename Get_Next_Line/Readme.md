@@ -29,18 +29,6 @@ For detailed information, refer to the [**subject of this project**](https://git
 	returns a line read from one file descriptor. The function get_next_line() returns NULL, if there is nothing else 
 	to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
 
-### Functions in `get_next_line.c`
-
-* `ft_free_null`	- free and null a pointer.
-* `ft_cpy_exc_buff`	- copy read excess (string after \n) to static variable (buffer).
-* `ft_buff2line`	- copy read line from buffer.
-* `get_next_line`	- main function.
-
-### Functions in `get_next_line_utils.c`
-
-* `ft_strlen`		- find length of string.
-* `ft_strdup`		- save a copy of a string (with malloc).
-
 ## 🛠️ Usage
 
 ### Requirements
