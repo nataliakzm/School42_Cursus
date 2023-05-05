@@ -34,7 +34,7 @@
 
 </div>
 
-1️⃣ **MiniTalk** **(C - Solo Project)** - [Click here to see more]()
+1️⃣ **MiniTalk** **(C - Solo Project)** - [Click here to see more](https://github.com/nataliakzm/School42_Cursus/tree/main/Minitalk)
 
 2️⃣ **So_Long** **(C - Solo Project)** - Current
 
