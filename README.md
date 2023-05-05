@@ -14,7 +14,7 @@
 
 </div>
 
-1️⃣ **Libft (C - Solo Project)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Libft
+1️⃣ **Libft (C - Solo Project)** - [Click Here](https://github.com/nataliakzm/School42_Cursus/tree/main/Libft)
 
 <br>
 
@@ -22,11 +22,11 @@
 
 </div>
 
-1️⃣ **Ft_Printf (C - Solo Project)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Ft_Printf
+1️⃣ **Ft_Printf (C - Solo Project)** - [Click Here](https://github.com/nataliakzm/School42_Cursus/tree/main/Ft_Printf)
 
 <br>
 
-2️⃣ **Get_Next_Line (C - Solo Project)** - https://github.com/nataliakzm/School42_Cursus/tree/main/Get_Next_Line
+2️⃣ **Get_Next_Line (C - Solo Project)** - [Click Here](https://github.com/nataliakzm/School42_Cursus/tree/main/Get_Next_Line)
 
 <br>
 
