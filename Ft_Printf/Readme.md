@@ -24,90 +24,28 @@
 
 For detailed information, refer to the [**subject of this project**](https://github.com/nataliakzm/School42_Cursus/blob/main/Ft_Printf/en.subject.pdf).
 
-	🚀 TLDR: this project consists of coding a library that contains a simplified version (more
-	information below) of the printf function.
+	🚀 TLDR: This project is pretty straightforward. It asks students to recode `printf()` in order to make them learn 
+	about how a variadic function works. It also aims to make students think about how they are going 
+	to implement the project. After all, the key to a successful `ft_printf` is a well-structured and extensible code.
 
-### Mandatory
+## Implemented features
 
-* **format specifiers** - `cspdiuxX%`
-* **flags** - `-0.*` and minimum field width with all conversions
+#### Mandatory
 
-### Bonus
+- ✅ The function has to implement the following conversions: `cspdiuxX%`
 
-* **format specifiers** - `nfge` (one or more)
-* **flags** - `l ll h hh` (one or more) and `# +` (all)
+| Conversion | Description |
+|:----|:-----|
+| `c`  | Prints a single character. |
+| `s`  | Prints a string (as defined by the common C convention). |
+| `p`  | The `void *` pointer argument has to be printed in hexadecimal format. |
+| `d`  | Prints a decimal (base 10) number. |
+| `i`  | Prints an integer in base 10. |
+| `u`  | Prints an unsigned decimal (base 10) number. |
+| `x`  | Prints a number in hexadecimal (base 16) lowercase format. |
+| `X`  | Prints a number in hexadecimal (base 16) uppercase format. |
+| `%`  | Prints a percent sign. |
 
-
-### Functions in `ft_printf.c`
-
-* `ft_printf` (and auxiliary static functions) - Initialization function: start/end variadic arguments functions `<stdarg.h>`; in between that, goes through the input string printing plain characters or collecting + treating format specifiers to the FORMAT SPECIFIER STRUCT thus printing each occurrance with the corresponding function.
-
-
-### Functions in `ft_printf_flags.c`
-
-* `print_flags` (and auxiliary static functions) - Prints each format specifier function's outputted string with formatting in accordance with the collected format specifiers.
-
-### Functions in `ft_printf_csp_pct.c`
-
-The following functions output the input variable (collected by `va_arg` function) as a pointer to a string to be printed by the `print_flags` function.
-
-* `print_spec_c`	- **character** (`%c`) type input variable;
-* `print_spec_s`	- **string** (`%s`) type input variable;
-* `print_spec_pct`	- **percent** (`%%`) character.
-
-### Functions in `ft_printf_iduxo.c`
-
-The following functions output the input variable (collected by `va_arg` function) as a pointer to a string to be printed by the `print_flags` function.
-
-* `print_spec_i_d_u`	- **int** (`%i` and `%d`) and **unsigned int** (`%u`)type input variables;
-* `print_spec_x`		- **lower** (`%x`) and **upper hexadecimal** (`%X`) type input variables;
-* `print_spec_o`		- **octal** (`%o`) type input variable;
-* `print_spec_p`		- **pointer** (`%p`) type input variable.
-
-### Functions in `ft_printf_f_g.c`
-
-The following functions output the input variable (collected by `va_arg` function) as a pointer to a string to be printed by the `print_flags` function.
-
-* `print_spec_f_e_g`	- triage for **float** (`%f`), **scientific notation** (`%e`) and **general format** (`%g`) type input variables;
-* `print_spec_f`		- **float** (`%f`) type input variable;
-* `print_spec_g`		- **general format** (`%g`) type input variable.
-
-### Functions in `ft_printf_f_g.c`
-
-The following functions output the input variable (collected by `va_arg` function) as a pointer to a string to be printed by the `print_flags` function.
-
-* `print_spec_e` - **scientific notation** (`%e`) type input variable.
-
-### Functions in `ft_printf_utils.c`
-
-Basic Libc functions - _Note: some were adapted and thus named with a suffix to indicate the nature of the customization._
-
-* `ft_strlen`		- find length of string;
-* `ft_strchr_01`	- check the occurence of a character in a string;
-* `ft_putchar_len`	- writes the input character to the output stream of stdout;
-* `ft_putcstr_len`	- writes the input string to the output stream of stdout;
-
-### Functions in `ft_printf_utils_2.c`
-
-Basic Libc functions - _Note: some were adapted and thus named with a suffix to indicate the nature of the customization._
-
-* `ft_strlcpy`	- copy string to another location;
-* `ft_strlcat`	- concatenate strings;
-* `ft_strdup`	- save a copy of a string (with malloc);
-* `ft_strjoin`	- join two strings (with malloc);
-* `ft_substr`	- extract a substring (with malloc).
-
-### Functions in `ft_printf_utils_3.c`
-
-Basic Libc functions - _Note: some were adapted and thus named with a suffix to indicate the nature of the customization._
-
-* `ft_pow`			- returns the value of first argument raised to the power of second argument.
-* `ft_ullitoa_base`	- allocates (with malloc) and returns a string representing the integer received as an argument according to the given base.
-* `ft_fmod`			- returns the modulo of the float received as an argument.
-
-### Functions in `ft_ftoa_rnd.c`
-
-* `ft_ftoa_rnd` - allocates (with malloc) and returns a string representing the float received as an argument.
 
 ## 🛠️ Usage
 
