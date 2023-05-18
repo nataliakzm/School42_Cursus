@@ -28,8 +28,6 @@
 
 3️⃣ **Born2BeRoot (Virtual Machine using Debian - Solo Project)** - TBD, passed
 
-🖥️ **Exam Rank 02** - [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://42school-exam-simulator.streamlit.app)
-
 <br>
 
 ## 🔵 Common Core Rank 02
@@ -41,6 +39,8 @@
 2️⃣ **So_Long** **(C - Solo Project)** - [Click here to see more](https://github.com/nataliakzm/School42_Cursus/tree/main/So_long)
 
 3️⃣ **Push_Swap (C - Solo Project)** - [Current](https://github.com/nataliakzm/School42_Cursus/tree/main/Push_swap)
+
+🖥️ **Exam Rank 02** - [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://42school-exam-simulator.streamlit.app)
 
 <br>
 
